@@ -42,7 +42,7 @@ def get_location():
 # <--------------------------------------------------- get_weather ------------------------------------------------------>
 def get_weather(city, country):
     # API key for OpenWeatherMap
-    API_key = "f89e982eac14d0186b659f0e96dd444c"
+    API_key = hidden.OpenWeatherMap_API_key
     # API endpoint to get the current weather data
     API_endpoint = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&appid=" + API_key
     # Make a GET request to the API endpoint
