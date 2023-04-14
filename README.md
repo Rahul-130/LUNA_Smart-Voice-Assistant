@@ -1,9 +1,9 @@
 # LUNA_Smart-Voice-Assistant
 A smart Voice Assistant for the Windows operating system developed in Python
 
+The available commands and instructions are available in the help_menu.txt file
+
 The packages used in the project are mentioned in the "requirements.txt" file check it and install the packages before running the code
-
-
 
 how to use the voice assistant
 clone all repo
@@ -21,5 +21,3 @@ create a profile in OpenWeatherMap and generate a key
 OpenWeatherMap_API_key = "key"
 
 
-
-the available commands and instructions are available in the help_menu.txt file
