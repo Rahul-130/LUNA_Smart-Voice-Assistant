@@ -1068,127 +1068,208 @@
                                                 ],
                                                 "responses ": [page up]
                                             },
-                                            {“
-                                                tag”: “page down”,
-                                                “patterns”: [“Move down”, ”Navigate down”, ”Go down”, ”go to lower part”, ”navigate to lower part”],
-                                                “responses”: [page down]
+                                            {
+                                                "
+                                                tag ": "
+                                                page down ",
+                                                "patterns": ["
+                                                    Move down ",
+                                                    "Navigate down",
+                                                    "Go down",
+                                                    "go to lower part",
+                                                    "navigate to lower part"
+                                                ],
+                                                "responses": [page down]
                                             },
-                                            {“
-                                                tag”: “minimize”,
-                                                “patterns”: [“”],
-                                                “responses”: [minimize]
-                                            },
-
-                                            {“
-                                                tag”: “maximize”,
-                                                “patterns”: [“”],
-                                                “responses”: [maximize]
-                                            },
-
-                                            {“
-                                                tag”: “lock system”,
-                                                “patterns”: [“lock my pc”, ”sleep”],
-                                                “responses”: [lock system]
-                                            },
-                                            {“
-                                                tag”: “open my computer”,
-                                                “patterns”: [“”],
-                                                “responses”: [open my computer]
+                                            {
+                                                "
+                                                tag ": "
+                                                minimize ",
+                                                "patterns": [""],
+                                                "responses": [minimize]
                                             },
 
-                                            {“
-                                                tag”: “speech to text”,
-                                                “patterns”: [“”],
-                                                “responses”: [speech to text]
-                                            },
-                                            {“
-                                                tag”: “open settings”,
-                                                “patterns”: [“start”, ”proceed to”, ”go to”, ”open”, ”launch”, ”load”, ”visit”, ”enter”, ”explore”, ”fire up”, ”initiate”, ”navigate”, ”begin”, ”run”],
-                                                “responses”: [open settings]
+                                            {
+                                                "
+                                                tag ": "
+                                                maximize ",
+                                                "patterns": [""],
+                                                "responses": [maximize]
                                             },
 
-                                            {“
-                                                tag”: “open snipping tool”,
-                                                “patterns”: [“start”, ”proceed to”, ”go to”, ”open”, ”launch”, ”load”, ”visit”, ”enter”, ”explore”, ”fire up”, ”initiate”, ”navigate”, ”begin”, ”run”],
-                                                “responses”: [open snipping tool]
+                                            {
+                                                "
+                                                tag ": "
+                                                lock system ",
+                                                "patterns": ["
+                                                    lock my pc ",
+                                                    "sleep"
+                                                ],
+                                                "responses": [lock system]
+                                            },
+                                            {
+                                                "
+                                                tag ": "
+                                                open my computer ",
+                                                "patterns": [""],
+                                                "responses": [open my computer]
                                             },
 
-                                            {“
-                                                tag”: “save”,
-                                                “patterns”: [“”],
-                                                “responses”: [save]
+                                            {
+                                                "
+                                                tag ": "
+                                                speech to text ",
+                                                "patterns": [""],
+                                                "responses": [speech to text]
+                                            },
+                                            {
+                                                "
+                                                tag ": "
+                                                open settings ",
+                                                "patterns": ["
+                                                    start ",
+                                                    "proceed to",
+                                                    "go to",
+                                                    "open",
+                                                    "launch",
+                                                    "load",
+                                                    "visit",
+                                                    "enter",
+                                                    "explore",
+                                                    "fire up",
+                                                    "initiate",
+                                                    "navigate",
+                                                    "begin",
+                                                    "run"
+                                                ],
+                                                "responses": [open settings]
                                             },
 
-                                            {“
-                                                tag”: “copy”,
-                                                “patterns”: [“”],
-                                                “responses”: [copy]
+                                            {
+                                                "
+                                                tag ": "
+                                                open snipping tool ",
+                                                "patterns": ["
+                                                    start ",
+                                                    "proceed to",
+                                                    "go to",
+                                                    "open",
+                                                    "launch",
+                                                    "load",
+                                                    "visit",
+                                                    "enter",
+                                                    "explore",
+                                                    "fire up",
+                                                    "initiate",
+                                                    "navigate",
+                                                    "begin",
+                                                    "run"
+                                                ],
+                                                "responses": [open snipping tool]
                                             },
 
-                                            {“
-                                                tag”: “paste”,
-                                                “patterns”: [“”],
-                                                “responses”: [paste]
+                                            {
+                                                "
+                                                tag ": "
+                                                save ",
+                                                "patterns": [""],
+                                                "responses": [save]
                                             },
 
-                                            {“
-                                                tag”: “cut”,
-                                                “patterns”: [“”],
-                                                “responses”: [cut]
+                                            {
+                                                "
+                                                tag ": "
+                                                copy ",
+                                                "patterns": [""],
+                                                "responses": [copy]
                                             },
 
-                                            {“
-                                                tag”: “undo”,
-                                                “patterns”: [“”],
-                                                “responses”: [undo]
+                                            {
+                                                "
+                                                tag ": "
+                                                paste ",
+                                                "patterns": [""],
+                                                "responses": [paste]
                                             },
 
-                                            {“
-                                                tag”: “redo”,
-                                                “patterns”: [“”],
-                                                “responses”: [redo]
+                                            {
+                                                "
+                                                tag ": "
+                                                cut ",
+                                                "patterns": [""],
+                                                "responses": [cut]
                                             },
 
-                                            {“
-                                                tag”: “print”,
-                                                “patterns”: [“”],
-                                                “responses”: [print]
+                                            {
+                                                "
+                                                tag ": "
+                                                undo ",
+                                                "patterns": [""],
+                                                "responses": [undo]
                                             },
 
-                                            {“
-                                                tag”: “home”,
-                                                “patterns”: [“”],
-                                                “responses”: [home]
+                                            {
+                                                "
+                                                tag ": "
+                                                redo ",
+                                                "patterns": [""],
+                                                "responses": [redo]
                                             },
 
-                                            {“
-                                                tag”: “end”,
-                                                “patterns”: [“”],
-                                                “responses”: [end]
+                                            {
+                                                "
+                                                tag ": "
+                                                print ",
+                                                "patterns": [""],
+                                                "responses": [print]
                                             },
 
-                                            {“
-                                                tag”: “”,
-                                                “patterns”: [“”],
-                                                “responses”: []
+                                            {
+                                                "
+                                                tag ": "
+                                                home ",
+                                                "patterns": [""],
+                                                "responses": [home]
                                             },
 
-                                            {“
-                                                tag”: “”,
-                                                “patterns”: [“”],
-                                                “responses”: []
+                                            {
+                                                "
+                                                tag ": "
+                                                end ",
+                                                "patterns": [""],
+                                                "responses": [end]
                                             },
 
-                                            {“
-                                                tag”: “”,
-                                                “patterns”: [“”],
-                                                “responses”: []
+                                            {
+                                                "
+                                                tag ": "
+                                                ",
+                                                "patterns": [""],
+                                                "responses": []
                                             },
 
-                                            {“
-                                                tag”: “”,
-                                                “patterns”: [“”],
-                                                “responses”: []
+                                            {
+                                                "
+                                                tag ": "
+                                                ",
+                                                "patterns": [""],
+                                                "responses": []
+                                            },
+
+                                            {
+                                                "
+                                                tag ": "
+                                                ",
+                                                "patterns": [""],
+                                                "responses": []
+                                            },
+
+                                            {
+                                                "
+                                                tag ": "
+                                                ",
+                                                "patterns": [""],
+                                                "responses": []
                                             },
 
 
