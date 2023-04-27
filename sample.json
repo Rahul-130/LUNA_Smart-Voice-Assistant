@@ -1,146 +1,1079 @@
 {
     "intents": [{
-            "tag": "greeting",
-            "patterns": ["hello", "hii", "hey", "luna"],
-            "responses": ["Hello", "How are you", "Here's your Assistant"]
-        },
-        {
-            "tag": "bye",
-            "patterns": ["bye", "goodbye", "see you later", "sleep", "exit"],
-            "responses": ["bye", "i am going", "Good bye", "It'll be Nice To Meet you again", "see you again"]
-        },
-        {
-            "tag": "wtrudng",
-            "patterns": ["what are you doing", "what doing", "what you doing", "are you doing", "are doing"],
-            "responses": ["I'm always learning and improving my capabilities. What can I help you with today?",
-                "I'm processing and analyzing data to help you get the information you need. What do you want to know?",
-                "I'm here to assist you in any way I can. How can I help you today?",
-                "I'm just waiting for your next command. What can I do for you right now?",
-                "I'm constantly searching for ways to make your life easier. What can I help you with?"
-            ]
-        },
-        {
-            "tag": "hwru",
-            "patterns": ["how are you", "how you", "are you fine", "are you good"],
-            "responses": ["I'm just a machine, so I don't have feelings in the way humans do. But I'm always here to help you out and make your life easier.",
-                "I'm here and ready to assist you in any way I can. What can I do for you today?",
-                "As an AI language model, I don't have emotions like humans do. But I'm always working to improve my responses and provide better assistance to users like you.",
-                "I'm always available and ready to help you out. Is there something specific you need help with today?",
-                "I'm just a voice assistant, but I'm always here to assist you with whatever you need. How can I help you out right now?"
-            ]
-        },
-        {
-            "tag": "identity",
-            "patterns": ["your name", "what are you", "what is your name", "who are you"],
-            "responses": ["A.I Assistant", "Great Assistant"]
-        },
-        {
-            "tag": "time",
-            "patterns": ["time", "what is the time", "what's the time", "the time", "time now"],
-            "responses": ["time"]
-        },
-        {
-            "tag": "date",
-            "patterns": ["date", "what is the date", "what's the date", "the date", "date now", "date today"],
-            "responses": ["date"]
-        },
-        {
-            "tag": "day",
-            "patterns": ["day", "what is the day", "what's the day", "today", "day today"],
-            "responses": ["day"]
-        },
-        {
-            "tag": "open calculator",
-            "patterns": ["open calculator", "start calculator", "calculator", "go to calculator", "goto calculator", "run calculator"],
-            "responses": ["open calculator"]
-        },
-        {
-            "tag": "close calculator",
-            "patterns": ["close calculator", "exit calculator", "stop calculator", "delete calculator"],
-            "responses": ["close calculator"]
-        },
-        {
-            "tag": "help",
-            "patterns": ["open help", "start calculator", "help", "go to calculator", "goto calculator", "run help"],
-            "responses": ["help"]
-        },
-        {
-            "tag": "wikipedia",
-            "patterns": ["who is", "tell me about", "wikipedia", "wikipedia about"],
-            "responses": ["wikipedia"]
-        },
-        {
-            "tag": "google",
-            "patterns": ["google search", "google", "search"],
-            "responses": ["google"]
-        },
-        {
-            "tag": "weather",
-            "patterns": ["get weather", "weather", "temperature", "get temperature", "what is the temperature", "what is the weather", "what's the temperature", "what's the weather", "how is the weather", "how is the temperature"],
-            "responses": ["weather"]
-        },
-        {
-            "tag": "set reminder",
-            "patterns": ["set reminder", "set a reminder", "set the reminder", "create a reminder", "create reminder", "keep a reminder", "keep reminder"],
-            "responses": ["set reminder"]
-        },
-        {
-            "tag": "show reminder",
-            "patterns": ["show reminder", "show a reminder", "show the reminder", "display a reminder", "display reminder", "saved reminder", "saved reminders"],
-            "responses": ["show reminder"]
-        },
-        {
-            "tag": "change background",
-            "patterns": ["change background", "modify background", "modify display", "replace the background with other ", "replace the background", "set background", "change display", "change the display background", "change the display "],
-            "responses": ["change background"]
-        },
-        {
-            "tag": "brightness up",
-            "patterns": ["increase brightness", "rise brightness", "rise the brightness", "amplify brightness", "amplify the brightness", "increment brightness", "add on brightness", "brightness up", "spike brightness"],
-            "responses": ["brightness up"]
-        },
-        {
-            "tag": "brightness down",
-            "patterns": ["decrease brightness", "lesser brightness", "lesser the brightness", "reduce brightness", "reduce the brightness", "drop brightness", "drop my system brightness", "decline brightness", "lower brightness", "lower the brightness", "diminish brightness", "cut down brightness", "cut down the brightness", "cut brightness", "knock down brightness", "decrement brightness"],
-            "responses": ["brightness down"]
-        },
-        {
-            "tag": "increase volume",
-            "patterns": ["increase volume ", "increase the volume", "rise volume ", "amplify volume", "increment volume", "volume add on", "volume up", "spike volume", "intensify volume"],
-            "responses": ["increase volume"]
-        },
-        {
-            "tag ": "decrease volume ",
-            "patterns ": ["decrease volume",
-                "lesser volume",
-                "reduce volume",
-                "drop volume",
-                "decline volume",
-                "lower volume",
-                "diminish volume",
-                "cut down volume",
-                "cut volume",
-                "knock down volume",
-                "decrement volume",
-                "volume fall"
-            ],
-            "responses ": ["decrease volume"]
-        },
-        {
-            "tag ": "tell me a joke ",
-            "patterns": ["humor me ",
-                "giggle me",
-                "lighten up the mood by sharing a joke",
-                "I could use a good laugh",
-                "I could use some humor right now",
-                "I 'm in the mood for a good laugh", "Can you make me smile"
-            ],
-            "responses ": ["tell me a joke"]
-        }
+                "tag": "greeting",
+                "patterns": ["hello", "hii", "hey", "luna"],
+                "responses": ["Hello", "How are you", "Here's your Assistant"]
+            },
+            {
+                "tag": "bye",
+                "patterns": ["bye", "goodbye", "see you later", "sleep", "exit"],
+                "responses": ["bye", "i am going", "Good bye", "It'll be Nice To Meet you again", "see you again"]
+            },
+            {
+                "tag": "wtrudng",
+                "patterns": ["what are you doing", "what doing", "what you doing", "are you doing", "are doing"],
+                "responses": ["I'm always learning and improving my capabilities. What can I help you with today?",
+                    "I'm processing and analyzing data to help you get the information you need. What do you want to know?",
+                    "I'm here to assist you in any way I can. How can I help you today?",
+                    "I'm just waiting for your next command. What can I do for you right now?",
+                    "I'm constantly searching for ways to make your life easier. What can I help you with?"
+                ]
+            },
+            {
+                "tag": "hwru",
+                "patterns": ["how are you", "how you", "are you fine", "are you good"],
+                "responses": ["I'm just a machine, so I don't have feelings in the way humans do. But I'm always here to help you out and make your life easier.",
+                    "I'm here and ready to assist you in any way I can. What can I do for you today?",
+                    "As an AI language model, I don't have emotions like humans do. But I'm always working to improve my responses and provide better assistance to users like you.",
+                    "I'm always available and ready to help you out. Is there something specific you need help with today?",
+                    "I'm just a voice assistant, but I'm always here to assist you with whatever you need. How can I help you out right now?"
+                ]
+            },
+            {
+                "tag": "identity",
+                "patterns": ["your name", "what are you", "what is your name", "who are you"],
+                "responses": ["A.I Assistant", "Great Assistant"]
+            },
+            {
+                "tag": "time",
+                "patterns": ["time", "what is the time", "what's the time", "the time", "time now"],
+                "responses": ["time"]
+            },
+            {
+                "tag": "date",
+                "patterns": ["date", "what is the date", "what's the date", "the date", "date now", "date today"],
+                "responses": ["date"]
+            },
+            {
+                "tag": "day",
+                "patterns": ["day", "what is the day", "what's the day", "today", "day today"],
+                "responses": ["day"]
+            },
+            {
+                "tag": "open calculator",
+                "patterns": ["open calculator", "start calculator", "calculator", "go to calculator", "goto calculator", "run calculator"],
+                "responses": ["open calculator"]
+            },
+            {
+                "tag": "close calculator",
+                "patterns": ["close calculator", "exit calculator", "stop calculator", "delete calculator"],
+                "responses": ["close calculator"]
+            },
+            {
+                "tag": "help",
+                "patterns": ["open help", "start calculator", "help", "go to calculator", "goto calculator", "run help"],
+                "responses": ["help"]
+            },
+            {
+                "tag": "wikipedia",
+                "patterns": ["who is", "tell me about", "wikipedia", "wikipedia about"],
+                "responses": ["wikipedia"]
+            },
+            {
+                "tag": "google",
+                "patterns": ["google search", "google", "search"],
+                "responses": ["google"]
+            },
+            {
+                "tag": "weather",
+                "patterns": ["get weather", "weather", "temperature", "get temperature", "what is the temperature", "what is the weather", "what's the temperature", "what's the weather", "how is the weather", "how is the temperature"],
+                "responses": ["weather"]
+            },
+            {
+                "tag": "set reminder",
+                "patterns": ["set reminder", "set a reminder", "set the reminder", "create a reminder", "create reminder", "keep a reminder", "keep reminder"],
+                "responses": ["set reminder"]
+            },
+            {
+                "tag": "show reminder",
+                "patterns": ["show reminder", "show a reminder", "show the reminder", "display a reminder", "display reminder", "saved reminder", "saved reminders"],
+                "responses": ["show reminder"]
+            },
+            {
+                "tag": "change background",
+                "patterns": ["change background", "modify background", "modify display", "replace the background with other ", "replace the background", "set background", "change display", "change the display background", "change the display "],
+                "responses": ["change background"]
+            },
+            {
+                "tag": "brightness up",
+                "patterns": ["increase brightness", "rise brightness", "rise the brightness", "amplify brightness", "amplify the brightness", "increment brightness", "add on brightness", "brightness up", "spike brightness"],
+                "responses": ["brightness up"]
+            },
+            {
+                "tag": "brightness down",
+                "patterns": ["decrease brightness", "lesser brightness", "lesser the brightness", "reduce brightness", "reduce the brightness", "drop brightness", "drop my system brightness", "decline brightness", "lower brightness", "lower the brightness", "diminish brightness", "cut down brightness", "cut down the brightness", "cut brightness", "knock down brightness", "decrement brightness"],
+                "responses": ["brightness down"]
+            },
+            {
+                "tag": "increase volume",
+                "patterns": ["increase volume ", "increase the volume", "rise volume ", "amplify volume", "increment volume", "volume add on", "volume up", "spike volume", "intensify volume"],
+                "responses": ["increase volume"]
+            },
+            {
+                "tag ": "decrease volume ",
+                "patterns ": ["decrease volume",
+                    "lesser volume",
+                    "reduce volume",
+                    "drop volume",
+                    "decline volume",
+                    "lower volume",
+                    "diminish volume",
+                    "cut down volume",
+                    "cut volume",
+                    "knock down volume",
+                    "decrement volume",
+                    "volume fall"
+                ],
+                "responses ": ["decrease volume"]
+            },
+            {
+                "tag ": "tell me a joke ",
+                "patterns": ["humor me ",
+                    "giggle me",
+                    "lighten up the mood by sharing a joke",
+                    "I could use a good laugh",
+                    "I could use some humor right now",
+                    "I 'm in the mood for a good laugh", "Can you make me smile"
+                ],
+                "responses ": ["tell me a joke"]
+            },
+            {
+                "tag": "search ",
+                "patterns ": ["fetch",
+                    "look",
+                    "look at",
+                    "look for ", "look over ",
+                    "head to ",
+                    "explore ",
+                    "investigate ", "
+                    reach ", "
+                    visit ", "
+                    inquire about ", "
+                    inquire ", "
+                    seek ", "
+                    find ", "
+                    find about ",
+                    "check",
+                    "check out",
+                    "scout",
+                    "tell me about",
+                    "go to",
+                    "browse",
+                    "
+                ],
+                "responses ": [search]
+            },
+
+            {
+                "
+                tag ": "
+                open website ",
+                "patterns ": ["proceed to",
+                    "open site ",
+                ],
+                "
+                responses ": [open website]
+            },
+
+            {
+                "
+                tag ": "
+                news ",
+                "patterns ": ["news",
+                    "news report",
+                    "information update",
+                    "press release",
+                    "breaking news",
+                    "news headlines",
+                    "current events"
+                ],
+                "responses ": [news]
+            },
+
+            {
+                "
+                tag ": "
+                convert currency ",
+                "patterns ": ["change the currency",
+                    "exchange the currency",
+                    "transform currency"
+                ],
+                "responses ": [convert currency]
+            },
+
+            {
+                "
+                tag ": "
+                calculate ",
+                "patterns ": ["compute",
+                    "determine",
+                    "solve",
+                    "estimate",
+                    "evaluate"
+                ],
+                "responses ": [calculate]
+            },
+
+            {
+                "
+                tag ": "
+                open youtube ",
+                "patterns ": ["start youtube",
+                    "proceed to youtube",
+                    "go to youtube",
+                    "open youtube",
+                    "launch youtube",
+                    "load youtube",
+                    "visit youtube",
+                    "enter youtube",
+                    "explore youtube",
+                    "fire up youtube",
+                    "initiate youtube",
+                    "navigate youtube",
+                    "navigate to youtube",
+                    "begin youtube",
+                    "run youtube"
+                ],
+                "responses ": [open youtube]
+            }, {
+                "
+                tag ": "
+                open google ",
+                "patterns ": ["start google",
+                    "proceed to google",
+                    "go to google",
+                    "open google",
+                    "launch google",
+                    "load google",
+                    "visit google",
+                    "enter google",
+                    "explore google",
+                    "fire up google",
+                    "initiate google",
+                    "navigate google",
+                    "navigate to google",
+                    "begin google",
+                    "run google"
+                ],
+                "responses ": [open google]
+            }, {
+                "
+                tag ": "
+                open firefox ",
+                "patterns ": ["start firefox",
+                    "proceed to firefox",
+                    "go to firefox",
+                    "open firefox",
+                    "launch firefox",
+                    "load firefox",
+                    "visit firefox",
+                    "enter firefox",
+                    "explore firefox",
+                    "fire up firefox",
+                    "initiate firefox",
+                    "navigate firefox",
+                    "begin firefox",
+                    "run firefox"
+                ],
+                "responses ": [open firefox]
+            },
+
+            {
+                "
+                tag ": "
+                open zoom ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open zoom]
+            }, {
+                "
+                tag ": "
+                open facebook ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open facebook]
+            }, {
+                "
+                tag ": "
+                open instagram ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open instagram]
+            }, {
+                "
+                tag ": "
+                open whatsapp web ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open whatsapp web]
+            }, {
+                "
+                tag ": "
+                open spotify ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open spotify]
+            }, {
+                "
+                tag ": "
+                open coursera ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open coursera]
+            }, {
+                "
+                tag ": "
+                open linkedin ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open linkedin]
+            }, {
+                "
+                tag ": "
+                open gmail ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open gmail]
+            }, {
+                "
+                tag ": "
+                open yahoo ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open yahoo]
+            }, {
+                "
+                tag ": "
+                open zomato ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open zomato]
+            }, {
+                "
+                tag ": "
+                open swiggy ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open swiggy]
+            }, {
+                "
+                tag ": "
+                open bookmyshow ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open bookmyshow]
+            }, {
+                "
+                tag ": "
+                open google meet ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open google meet]
+            }, {
+                "
+                tag ": "
+                open teams ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open teams]
+            }, {
+                "
+                tag ": "
+                open quora ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open quora]
+            }, {
+                "
+                tag ": "
+                open brainly ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open brainly]
+            }, {
+                "
+                tag ": "
+                open stack overflow ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open stack overflow]
+            },
+
+            {
+                "
+                tag ": "
+                open github ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open github]
+            },
+
+            {
+                "
+                tag ": "
+                open colab ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open colab]
+            },
+
+            {
+                "
+                tag ": "
+                open vnr website ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open vnr website]
+            },
+
+            {
+                "
+                tag ": "
+                open eduprime ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open eduprime]
+            },
+
+
+            {
+                "
+                tag ": "
+                time ",
+                "patterns ": ["what 's the time",
+                    "could you tell me time",
+                    "Could you inform me of the time",
+                    "What time is it right now"
+                ],
+                "
+                responses ": []
+            },
+
+            {
+                "
+                tag ": "
+                date ",
+                "patterns ": ["what 's the date",
+                    "What is the current date",
+                    "Can you tell me today'
+                    s date ", "
+                    could you tell me today 's date","May I know what day it is today","What day of the month is it today"],"
+                    responses ": [date]
+                },
+
+
+                {
+                    "
+                    tag ": "set an alarm
+                    for ","
+                    patterns ": ["
+                    Schedule a alarm
+                    for ", "
+                    Program a wake - up call
+                    for ", "
+                    Set a notification
+                    for ", "
+                    Establish a wake - up alarm
+                    for ", "
+                ],
+                "responses ": [set an alarm
+                    for
+                ]
+            },
+
+            {
+                "
+                tag ": "
+                open powerpoint ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open powerpoint]
+            },
+
+            {
+                "
+                tag ": "
+                open word ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open word]
+            },
+
+            {
+                "
+                tag ": "
+                open excel ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open excel]
+            },
+
+            {
+                "
+                tag ": "
+                open outlook ",
+                "patterns ": ["start",
+                    "proceed to",
+                    "go to",
+                    "open",
+                    "launch",
+                    "load",
+                    "visit",
+                    "enter",
+                    "explore",
+                    "fire up",
+                    "initiate",
+                    "navigate",
+                    "begin",
+                    "run"
+                ],
+                "responses ": [open outlook]
+            },
+
+
+            {
+                "
+                tag ": "
+                close word ",
+                "patterns ": ["conclude",
+                    "end",
+                    "Shut down",
+                    "terminate",
+                    "stop",
+                    "suspend",
+                    "exit"
+                    ", "
+                    turn off ", "
+                    cease ", "
+                    halt "],"
+                    responses ": [close word]
+                },
+
+                {
+                    "
+                    tag ": "
+                    close excel ",
+                    "patterns ": ["conclude",
+                        "end",
+                        "Shut down",
+                        "terminate",
+                        "stop",
+                        "suspend",
+                        "exit"
+                        ", "
+                        turn off ", "
+                        cease ", "
+                        halt "],"
+                        responses ": [close excel]
+                    },
+
+                    {
+                        "
+                        tag ": "
+                        close powerpoint ",
+                        "patterns ": ["conclude",
+                            "end",
+                            "Shut down",
+                            "terminate",
+                            "stop",
+                            "suspend",
+                            "exit"
+                            ", "
+                            turn off ", "
+                            cease ", "
+                            halt "],"
+                            responses ": [close powerpoint]
+                        },
+
+                        {
+                            "
+                            tag ": "
+                            close outlook ",
+                            "patterns ": ["conclude",
+                                "end",
+                                "Shut down",
+                                "terminate",
+                                "stop",
+                                "suspend",
+                                "exit"
+                                ", "
+                                turn off ", "
+                                cease ", "
+                                halt "],"
+                                responses ": [close outlook]
+                            },
+
+
+                            {
+                                "
+                                tag ": "
+                                open notepad ",
+                                "patterns ": ["start",
+                                    "proceed to",
+                                    "go to",
+                                    "open",
+                                    "launch",
+                                    "load",
+                                    "visit",
+                                    "enter",
+                                    "explore",
+                                    "fire up",
+                                    "initiate",
+                                    "navigate",
+                                    "begin",
+                                    "run"
+                                ],
+                                "responses ": [open notepad]
+                            },
+
+                            {
+                                "
+                                tag ": "
+                                close notepad ",
+                                "patterns ": ["conclude",
+                                    "end",
+                                    "Shut down",
+                                    "terminate",
+                                    "stop",
+                                    "suspend",
+                                    "exit"
+                                    ", "
+                                    turn off ", "
+                                    cease ", "
+                                    halt "],"
+                                    responses ": [close notepad]
+                                },
+
+                                {
+                                    "
+                                    tag ": "
+                                    open camera ",
+                                    "patterns ": ["start",
+                                        "proceed to",
+                                        "go to",
+                                        "open",
+                                        "launch",
+                                        "load",
+                                        "visit",
+                                        "enter",
+                                        "explore",
+                                        "fire up",
+                                        "initiate",
+                                        "navigate",
+                                        "begin",
+                                        "run"
+                                    ],
+                                    "responses ": [open camera]
+                                },
+
+                                {
+                                    "
+                                    tag ": "
+                                    close camera ",
+                                    "patterns ": ["conclude",
+                                        "end",
+                                        "Shut down",
+                                        "terminate",
+                                        "stop",
+                                        "suspend",
+                                        "exit"
+                                        ", "
+                                        turn off ", "
+                                        cease ", "
+                                        halt "],"
+                                        responses ": [close camera]
+                                    },
+
+                                    {
+                                        "
+                                        tag ": "
+                                        open file ",
+                                        "patterns ": ["
+                                            proceed to ", "
+                                            go to ", "
+                                            open ", "
+                                            launch ", "
+                                            load ", "
+                                            visit ", "
+                                            enter ", "
+                                            explore ", "
+                                            fire up ", "
+                                            initiate ", "
+                                            navigate ", "
+                                            begin "],"
+                                            responses ": [open file]
+                                        },
+
+                                        {
+                                            "
+                                            tag ": "
+                                            open visual studio code ",
+                                            "patterns ": ["start",
+                                                "proceed to",
+                                                "go to",
+                                                "open",
+                                                "launch",
+                                                "load",
+                                                "visit",
+                                                "enter",
+                                                "explore",
+                                                "fire up",
+                                                "initiate",
+                                                "navigate",
+                                                "begin",
+                                                "run"
+                                            ],
+                                            "responses ": [open visual studio code]
+                                        },
+
+                                        {
+                                            "
+                                            tag ": "
+                                            close visual studio code ",
+                                            "patterns ": ["conclude",
+                                                "end",
+                                                "Shut down",
+                                                "terminate",
+                                                "stop",
+                                                "suspend",
+                                                "exit"
+                                                ", "
+                                                turn off ", "
+                                                cease ", "
+                                                halt "],"
+                                                responses ": [close visual studio code]
+                                            },
+
+                                            {
+                                                "
+                                                tag ": "
+                                                page up ",
+                                                "patterns ": ["go up",
+                                                    "move up",
+                                                    "move upwards",
+                                                    "rise up",
+                                                    "advance vertically"
+                                                ],
+                                                "responses ": [page up]
+                                            },
 
 
 
 
 
-    ]
-}
+
+
+                                        ]
+                                    }
