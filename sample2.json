@@ -1,0 +1,229 @@
+{
+    "alternatives":
+    [{
+        "tag": "open visual studio code",
+        "patterns": ["start visual studio code","proceed to visual studio code",
+        "go to visual studio code","open visual studio code","launch visual studio code",
+        "load visual studio code","visit visual studio code","enter visual studio code",
+        "explore visual studio code","fire up visual studio code", "initiate visual studio code",
+        "navigate visual studio code","begin visual studio code","run visual studio code",
+        "start  V S","proceed to V S","go to V S","open V S","launch V S","load V S",
+        "visit V S","enter V S","explore V S","fire up V S", "initiate V S","navigate V S",
+        "begin V S","run V S","start  V S code","proceed to V S code","go to V S code",
+        "open V S code","launch V S code","load V S code","visit V S code",
+        "enter V S code","explore V S code","fire up V S code", "initiate V S code",
+        "navigate V S code","begin V S code","run V S code"],
+        "responses":["open visual studio code"]
+        },
+        
+        {
+        "tag": "close visual studio code",
+        "patterns": ["conclude visual studio code","end visual studio code",
+        "Shut down visual studio code","terminate visual studio code","stop visual studio code",
+        "suspend visual studio code","exit visual studio code","turn off visual studio code",
+        "cease visual studio code", "halt visual studio code","conclude V S","end  V S",
+        "Shut down  V S","terminate  V S","stop  V S","suspend  V S","exit  V S","turn of  V S",
+        "cease  V S", "halt  V S","conclude V S code","end  V S code","Shut down  V S code",
+        "terminate  V S code","stop  V S code","suspend  V S code","exit  V S code", 
+        "turn of  V S code","cease V S code", "halt  V S code"],
+        "responses":["close visual studio code"]
+        },
+        
+        
+    //doubt 
+        {
+        "tag": "page up",
+        "patterns": ["go up the page","move up the page","move upwards the page","rise up the page","advance the page vertically up","Navigate up the page","go to upper part of the page","navigate to upper part of the page"],
+        "responses":["page up"]
+        },
+        
+        {
+        "tag": "page down",
+        "patterns": ["Move down page","Navigate down the page","Go down the page",
+        "go to lower part of the page","navigate to lower part of the page",
+        "advance the page vertically down","move downwards the page"],
+        "responses":["page down"]
+        },
+        
+        {
+        "tag": "minimize",
+        "patterns": ["minimize word","minimize file","minimize document","minimize doc",
+        "minimize ppt","minimize power point","minimize spreadsheet","minimize excel",
+        "minimize excel sheet","minimize notepad","minimize chrome","minimize window",
+        "minimize screen","minimize wordpad","minimize the word","minimize the file",
+        "minimize the document","minimize the doc","minimize the ppt",
+        "minimize the power point","minimize the spreadsheet","minimize the excel",
+        "minimize the excel sheet","minimize the notepad","minimize the chrome",
+        "minimize the window","minimize the screen","minimize the wordpad" ],
+        "responses":["minimize"]
+        },
+        
+        {
+        "tag": "maximize",
+        "patterns": ["maximize word","maximize file","maximize document","maximize doc","maximize ppt","maximize powerpoint","maximize spreadsheet","maximize excel","maximize excel sheet","maximize notepad","maximize chrome","maximize window","maximize screen","maximize wordpad","maximize the word","maximize the file","maximize the document","maximize the doc","maximize the ppt","maximize the power point","maximize the spreadsheet","maximize the excel","maximize the excel sheet","maximize the notepad", "maximize the chrome","maximize the window","maximize the screen","maximize the wordpad"],
+        "responses":["maximize"]
+        },
+        
+        {
+        "tag": "lock system",
+        "patterns": ["lock pc","lock the pc","lock my pc","sleep","Secure the system","Safeguard the system","Safeguard the pc","Activate system security","Secure the pc"],
+        "responses":["lock system"]
+        },
+        
+        
+        {
+        "tag": "open my computer",
+        "patterns": ["open the file explorer","open file explorer","open this pc","start  file explorer","proceed to file explorer","go to file explorer","launch file explorer","load file explorer","visit file explorer","enter file explorer","explore file explorer","fire up file explorer","initiate file explorer","navigate file explorer","begin file explorer","run file explorer",
+        
+        "start my computer ","proceed to my computer","go to my computer","launch my computer", "load my computer","visit my computer","enter my computer","explore my computer","fire up my computer","initiate my computer","navigate my computer","begin my computer","run my computer",
+        
+        "start this pc","proceed to this pc","go to this pc","launch this pc","load this pc","visit this pc","enter this pc","explore this pc","fire up this pc","initiate this pc","navigate this pc","begin this pc","run this pc"],
+        "responses":["open my computer"]
+        },
+        
+        {
+        "tag": "speech to text",
+        "patterns": ["convert the following speech to text","convert my speech to text","convert the speech to text"],
+        "responses":["speech to text"]
+        },
+        {
+        "tag": "open settings",
+        "patterns": ["start settings","proceed to settings","go to settings","open settings","launch settings","load settings","visit settings","enter settings","explore settings","fire up settings","initiate settings","navigate settings","begin settings","run settings"],
+        "responses":["open settings"]
+        },
+        
+        {
+        "tag": "open snipping tool",
+        "patterns": ["start snipping tool","proceed to snipping tool","go to snipping tool", "open snipping tool","launch snipping tool","load snipping tool","visit snipping tool","enter snipping tool","explore snipping tool","fire up snipping tool","initiate snipping tool","navigate snipping tool","begin snipping tool","run snipping tool"],
+        "responses":["open snipping tool"]
+        },
+        
+        {
+        "tag": "save",
+        "patterns": ["save the following","save the selected","save the file","save the word","save the ppt","save the presentation","save the notepad","save the doc","save the excel","save the spreadsheet","save the image","save the pic"],
+        "responses":["save"]
+        },
+        
+        {
+        "tag": "copy",
+        "patterns": ["copy the following","copy the selected","copy the image","copy the pic",
+        "copy following","copy selected","copy image","copy pic"],
+        "responses":["copy"]
+        },
+        
+        {
+        "tag": "paste",
+        "patterns": ["paste the copied text","paste the image","paste the pic",
+        "paste copied text","paste image","paste pic"],
+        "responses":["paste"]
+        },
+        
+        {
+        "tag": "cut",
+        "patterns": ["cut the following","cut the selected","cut the pic","cut the image"],
+        "responses":["cut"]
+        },
+        
+        {
+        "tag": "undo",
+        "patterns": ["go to previous step","go to previous state","retract the step","revoke the previous step","nullify the last step","annul the last step","veto the last move"],
+        "responses":["undo"]
+        },
+        
+        {
+        "tag": "redo",
+        "patterns": ["do over the last move","revise the previous step","perform the previous action","fix up the last step"],
+        "responses":["redo"]
+        },
+        
+        {
+        "tag": "print",
+        "patterns": ["print word","print file","print document","print doc","print ppt","print powerpoint","print spreadsheet","print excel","print excel sheet","print notepad","print chrome","print window","print screen","print wordpad","print the word","print the file","print the document","print the doc","print the ppt","print the power point","print the spreadsheet","print the excel","print the excel sheet","print the notepad", "print the chrome","print the window","print the screen","print the wordpad"],
+        "responses":["print"]
+        },
+        
+        {
+        "tag": "home",
+        "patterns": ["move to the beginning","go to beginning","go back to the start","return to the initial point","rewind to the start"],
+        "responses":["home"]
+        },
+        
+        {
+        "tag": "end",
+        "patterns": ["move to end","proceed to the conclusion","advance to the finale","head towards the end","transition to the conclusion","go to the final section","reach the conclusion","arrive at the end"],
+        "responses":["end"]
+        },
+        
+        
+        
+        {
+        "tag": "select all",
+        "patterns": ["select the whole file","select all the docs","select all the above","select all the documents","select the whole text"],
+        "responses":["select all"]
+        },
+        
+        {
+        "tag": "close tab",
+        "patterns": ["end the tab","close current tab","close the tab on the frame","shut down the browser tab","Exit out of the browser tab","Close out the tab in the browser","End the session on the browser tab","Terminate the webpage on the browser tab","Finish and close the tab in the browser","shut down the tab","Exit out of the tab","Close out the tab","End the session tab","Terminate the webpage","Finish and close the tab"],
+        "responses":["close tab"]
+        },
+        
+        {
+        "tag": "open a new tab",
+        "patterns": ["launch a new browser tab","start a new tab in the browser","Open a fresh browser tab","Create a new browser tab","Initiate a new tab in the browser","Load a new tab in the browser","Begin a new browsing tab","Bring up a new tab in the browser","Generate a new tab in the browser","launch a new browser tab","start a new tab in the browser","Open a fresh browser tab","Create a new tab","Initiate a new tab","Load a new tab","Begin a new tab","Bring up a new tab","Generate a new tab"],
+        "responses":["open a new tab"]
+        },
+        
+        {
+        "tag": "file menu",
+        "patterns": ["open file menu","open file","Access the file menu","Click on the file menu","Navigate to the file menu","Expand the file menu","Show the file menu","Display the file menu","View the file menu","Open the file options","Access the file options menu","Display the file options menu"],
+        "Responses":["file menu"]
+        },
+        
+        {
+        "tag": "scroll up",
+        "patterns": ["Move towards the top slowly","Scale higher","Scroll up the application","Scroll up the page","Navigate to the upper part of the application","Move the application window upwards","Slide the application screen upwards","Browse through the upper part of the application","ascend  to the up of the application page"],
+        "responses":["scroll up"]
+        },
+        
+        {
+        "tag": "scroll down",
+        "patterns": ["Scroll down the application","Navigate to the lower part of the application","Go to the next section of the application","Explore the lower part of the application","Move the application window downwards","Slide the application screen downwards","Browse through the lower part of the application","Descend to the bottom of the application page"],
+        "responses":["scroll down"]
+        },
+        //doubt
+        {
+        "tag": "play",
+        "patterns": [""],
+        "responses":["play"]
+        },
+        
+        {
+        "tag": "open",
+        "patterns": [""],
+        "responses":["open"]
+        },
+        
+        {
+        "tag": "internet speed",
+        "patterns": ["check my internet speed","Test my internet connection speed","Measure my internet speed","Determine my internet speed","Check the speed of my internet connection","Evaluate my internet speed","Gauge my internet speed","Assess my internet connection speed","Verify my internet speed","Examine my internet speed","Monitor my internet speed"],
+        "responses":["internet speed"]
+        },
+        
+        {
+        "tag": "screenshot",
+        "patterns": ["take a screenshot","Capture a screenshot","Grab a screenshot","Save a screenshot","Record a screenshot","Snap a screenshot","Capture an image of the screen","Capture an image of the screen",
+        "Create a screen capture","Generate a screenshot","Take a picture of the screen","Capture a picture of the display"],
+        "responses":["screenshot"]
+        },
+        
+        
+        
+        {
+        "tag": "email",
+        "patterns": ["send an email","Compose an email","Write an email","Dispatch an electronic mail","Shoot off an electronic mail","Email someone","Shoot off an email","Dispatch an email","Transmit an email","Address an email","Create an email","Draft an email"],
+        "responses":["email"]
+        }
+    ]
+
+}
